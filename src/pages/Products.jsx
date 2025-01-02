@@ -51,11 +51,10 @@ function Products() {
   useEffect(() => {
     setIsLoading(true);
     if (category && !validCategories.includes(category)) {
-      console.log("Category:", category);
-      console.log("invalid");
       setRedirectTo404(true);
       return;
     }
+
     const getProducts = async () => {
       const result = await fetchProducts();
       if (result) {

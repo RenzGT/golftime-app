@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/breadcrumb";
 import { ChevronLeft, ChevronRight, ChevronRightCircle } from "lucide-react";
 import React, { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 
 function EventDetail() {
   const { id } = useParams();
@@ -20,7 +20,7 @@ function EventDetail() {
   const [next, setNext] = useState(null);
   const [totalEvents, setTotalEvents] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
-
+  const navigate = useNavigate();
   useEffect(() => {
     setIsLoading(true);
     fetch("/data/events.json")
@@ -28,6 +28,10 @@ function EventDetail() {
       .then((data) => {
         const eventFetched = data.find((event) => event.id === parseInt(id));
         const total = Math.ceil(data.length);
+
+        if (!eventFetched) {
+          navigate("/404");
+        }
 
         if (eventFetched && eventFetched.description) {
           eventFetched.description = eventFetched.description.replace(/\n/g, "<br />");
