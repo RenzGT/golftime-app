@@ -107,13 +107,8 @@ function Products() {
 
   const handlePaginate = paginate(setCurrentPage, AOS);
 
-  function changeLocation(placeToGo) {
-    navigate(placeToGo, { replace: true });
-    window.location.reload();
-  }
-
   if (redirectTo404) {
-    changeLocation("/404");
+    navigate("/404", { replace: true });
     return;
   }
 

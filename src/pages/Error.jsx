@@ -19,6 +19,7 @@ function Error() {
       setLoading(false);
     }, 500);
   }, []);
+
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
