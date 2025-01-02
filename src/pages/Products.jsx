@@ -56,6 +56,8 @@ function Products() {
         let filtered = result;
 
         if (category && !validCategories.includes(category)) {
+          console.log("Category:", category);
+          console.log("invalid");
           setRedirectTo404(true);
           return;
         }
