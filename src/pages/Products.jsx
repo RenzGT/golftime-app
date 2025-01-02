@@ -77,7 +77,7 @@ function Products() {
         }
         setProducts(filtered);
       } else {
-        setError("Failed to fetch product data");
+        setEmptySearch(true);
       }
     };
 
