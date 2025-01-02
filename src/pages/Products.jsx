@@ -114,6 +114,7 @@ function Products() {
 
   if (redirectTo404) {
     changeLocation("/404");
+    return;
   }
 
   return (
