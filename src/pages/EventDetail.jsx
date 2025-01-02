@@ -1,3 +1,4 @@
+import { CTAButton } from "@/components/CTAButton";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import {
@@ -5,21 +6,23 @@ import {
   BreadcrumbItem,
   BreadcrumbLink,
   BreadcrumbList,
-  BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { ChevronLeft, ChevronRight, ChevronRightCircle } from "lucide-react";
+import { MdArrowRight, MdCircle, MdOutlineSearchOff } from "react-icons/md";
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 
 function EventDetail() {
   const { id } = useParams();
+  const [events, setEvents] = useState({});
   const [event, setEvent] = useState({});
   const [products, setProducts] = useState([]);
   const [previous, setPrevious] = useState(null);
   const [next, setNext] = useState(null);
   const [totalEvents, setTotalEvents] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
+  const [eventNotFound, setEventNotFound] = useState(false);
   const navigate = useNavigate();
   useEffect(() => {
     setIsLoading(true);
@@ -29,14 +32,14 @@ function EventDetail() {
         const eventFetched = data.find((event) => event.id === parseInt(id));
         const total = Math.ceil(data.length);
 
-        if (!eventFetched) {
-          navigate("/404");
-        }
-
         if (eventFetched && eventFetched.description) {
           eventFetched.description = eventFetched.description.replace(/\n/g, "<br />");
+        } else {
+          console.log("News or Event does not exist");
+          const latestEvents = data.slice(0, 3);
+          setEvents(latestEvents);
+          setEventNotFound(true);
         }
-
         setEvent(eventFetched);
         setTotalEvents(total);
         setTimeout(() => {
@@ -147,70 +150,108 @@ function EventDetail() {
           </div>
         ) : (
           <>
-            <div className="flex flex-wrap w-full xl:w-1/4 lg:px-5 py-5 md:py-0 justify-center content-start">
-              <div className="hidden xl:flex flex-wrap flex-col w-full my-4">
-                <div className="flex justify-between">
-                  <span className="text-sm font-semibold">Latest Products</span>
-                  <Link to="/products" className="text-xs">
-                    <ChevronRightCircle className="w-4 h-4" />
-                  </Link>
-                </div>
-                {products.map((product) => (
-                  <div
-                    className="flex w-full my-2 justify-start items center content-center border-b py-2 pe-2"
-                    key={product.id}
-                  >
-                    <img
-                      src={`/images/products/${product.images[0]}`}
-                      alt={product.name}
-                      className="w-32"
-                    />
-                    <div className="flex flex-wrap ms-2 text-sm text-justified text-pretty content-center">
-                      <span className="font-semibold">{product.name}</span>
+            {eventNotFound ? (
+              <div className="flex flex-wrap justify-center w-full">
+                <div className="grid grid-cols-1 md:grid-cols-2 border gap-1 w-fit rounded border-2 border-slate-200 shadow-lg">
+                  <div className="flex flex-wrap text-center items-center content-center justify-center text-pretty gap-2 w-full bg-slate-200 text-slate-900  p-6">
+                    <MdOutlineSearchOff className="text-9xl w-full" />
+                    <h2 className="text-4xl font-semibold uppercase">Error 404</h2>
+                  </div>
+                  <div className="flex flex-col justify-center text-start text-pretty gap-4 w-full p-6 text-slate-900 ">
+                    <h2 className="text-2xl font-semibold capitalize">Event not found</h2>
+                    <p className="text-base justify max-w-[400px]">
+                      The news or event you're trying to access is unavailable, either because it
+                      has been removed or never existed. But don’t worry, you can still find some
+                      exciting content below:
+                    </p>
+                    <div className="flex flex-col flex-wrap w-full gap-2">
+                      <div className="flex flex-wrap items-center content-center gap-1">
+                        <MdArrowRight className="text-xs" />
+                        <Link
+                          to={"/events"}
+                          className="text-sm capitalize underline underline-offset-4"
+                        >
+                          see latest events
+                        </Link>
+                      </div>
+                      <div className="flex flex-wrap items-center content-center gap-1">
+                        <MdArrowRight className="text-xs" />
+                        <Link to={"/"} className="text-sm capitalize underline underline-offset-4">
+                          return home
+                        </Link>
+                      </div>
                     </div>
                   </div>
-                ))}
+                </div>
               </div>
-            </div>
-            <div className="flex flex-col w-full xl:w-3/4">
-              <div className="flex flex-wrap flex-col w-full my-2 text-justify">
-                <span className="text-[18px] lg:text-[24px] font-[500] my-1">{event.name}</span>
-                <span className="text-[12px] text-zinc-600 my-1">{event.location}</span>
-                <span className="text-[14px] text-zinc-600 my-1">{event.date}</span>
+            ) : (
+              <>
+                <div className="flex flex-wrap w-full xl:w-1/4 lg:px-5 py-5 md:py-0 justify-center content-start">
+                  <div className="hidden xl:flex flex-wrap flex-col w-full my-4">
+                    <div className="flex justify-between">
+                      <span className="text-sm font-semibold">Latest Products</span>
+                      <Link to="/products" className="text-xs">
+                        <ChevronRightCircle className="w-4 h-4" />
+                      </Link>
+                    </div>
+                    {products.map((product) => (
+                      <div
+                        className="flex w-full my-2 justify-start items center content-center border-b py-2 pe-2"
+                        key={product.id}
+                      >
+                        <img
+                          src={`/images/products/${product.images[0]}`}
+                          alt={product.name}
+                          className="w-32"
+                        />
+                        <div className="flex flex-wrap ms-2 text-sm text-justified text-pretty content-center">
+                          <span className="font-semibold">{product.name}</span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                <div className="flex flex-col w-full xl:w-3/4">
+                  <div className="flex flex-wrap flex-col w-full my-2 text-justify">
+                    <span className="text-[18px] lg:text-[24px] font-[500] my-1">{event.name}</span>
+                    <span className="text-[12px] text-zinc-600 my-1">{event.location}</span>
+                    <span className="text-[14px] text-zinc-600 my-1">{event.date}</span>
 
-                <img
-                  alt={event.name}
-                  src={`/images/events/${event.image}`}
-                  className="my-5 w-full"
-                />
-                <p
-                  className="text-[14px] my-5"
-                  dangerouslySetInnerHTML={{ __html: event.description }}
-                />
-              </div>
-              <div
-                className={`flex ${
-                  previous === null ? "justify-end" : "justify-between"
-                } border-y py-4`}
-              >
-                {previous !== null && (
-                  <Link to={`/events/${previous}`} preventScrollReset={true}>
-                    <div className="flex flex-wrap content-center items-center font-semibold text-sm">
-                      <ChevronLeft size={18} />
-                      <span className="hover:underline underline-offset-4">Previous</span>
-                    </div>
-                  </Link>
-                )}
-                {next !== null && (
-                  <Link to={`/events/${next}`} preventScrollReset={true}>
-                    <div className="flex flex-wrap content-center items-center font-semibold text-sm">
-                      <span className="hover:underline underline-offset-4">Next</span>{" "}
-                      <ChevronRight size={18} />
-                    </div>
-                  </Link>
-                )}
-              </div>
-            </div>
+                    <img
+                      alt={event.name}
+                      src={`/images/events/${event.image}`}
+                      className="my-5 w-full"
+                    />
+                    <p
+                      className="text-[14px] my-5"
+                      dangerouslySetInnerHTML={{ __html: event.description }}
+                    />
+                  </div>
+                  <div
+                    className={`flex ${
+                      previous === null ? "justify-end" : "justify-between"
+                    } border-y py-4`}
+                  >
+                    {previous !== null && (
+                      <Link to={`/events/${previous}`} preventScrollReset={true}>
+                        <div className="flex flex-wrap content-center items-center font-semibold text-sm">
+                          <ChevronLeft size={18} />
+                          <span className="hover:underline underline-offset-4">Previous</span>
+                        </div>
+                      </Link>
+                    )}
+                    {next !== null && (
+                      <Link to={`/events/${next}`} preventScrollReset={true}>
+                        <div className="flex flex-wrap content-center items-center font-semibold text-sm">
+                          <span className="hover:underline underline-offset-4">Next</span>{" "}
+                          <ChevronRight size={18} />
+                        </div>
+                      </Link>
+                    )}
+                  </div>
+                </div>
+              </>
+            )}
           </>
         )}
       </div>

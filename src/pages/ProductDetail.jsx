@@ -19,6 +19,7 @@ import {
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Autoplay from "embla-carousel-autoplay";
+import { MdArrowRight, MdOutlineSearchOff } from "react-icons/md";
 
 function ProductDetail() {
   const { id, category } = useParams();
@@ -152,8 +153,37 @@ function ProductDetail() {
         ) : (
           <>
             {productNotFound ? (
-              <div className="my-10">
-                <p>Not found</p>
+              <div className="flex flex-wrap justify-center w-full my-10">
+                <div className="grid grid-cols-1 md:grid-cols-2 border gap-1 w-fit rounded border-2 border-slate-200 shadow-lg">
+                  <div className="flex flex-wrap text-center items-center content-center justify-center text-pretty gap-2 w-full bg-slate-200 text-slate-900  p-6">
+                    <MdOutlineSearchOff className="text-9xl w-full" />
+                    <h2 className="text-4xl font-semibold uppercase">Error 404</h2>
+                  </div>
+                  <div className="flex flex-col justify-center text-start text-pretty gap-4 w-full p-6 text-slate-900 ">
+                    <h2 className="text-2xl font-semibold capitalize">Product Not Found</h2>
+                    <p className="text-base justify max-w-[400px]">
+                      It appears that the item you’re trying to find has been discontinued, removed
+                      from our store, or doesn't exist. You can:
+                    </p>
+                    <div className="flex flex-col flex-wrap w-full gap-2">
+                      <div className="flex flex-wrap items-center content-center gap-1">
+                        <MdArrowRight className="text-xs" />
+                        <Link
+                          to={"/products"}
+                          className="text-sm capitalize underline underline-offset-4"
+                        >
+                          browse our latest products
+                        </Link>
+                      </div>
+                      <div className="flex flex-wrap items-center content-center gap-1">
+                        <MdArrowRight className="text-xs" />
+                        <Link to={"/"} className="text-sm capitalize underline underline-offset-4">
+                          return home
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             ) : (
               <div className="flex flex-wrap content-start justify-center w-full md:container">

@@ -9,6 +9,8 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
+import { MdArrowRight, MdOutlineSearchOff } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 function Error() {
   const [isLoading, setLoading] = useState(true);
@@ -69,10 +71,46 @@ function Error() {
             </svg>
           </div>
         ) : (
-          <div className="container justify-center flex flex-wrap w-full">
-            <div className="md:container w-full lg:w-5/12 my-5">
-              <h1 className="text-3xl font-semibold my-1">404 Not Found</h1>
-              <p className="text-lg text-gray-600">The page you are looking for does not exist.</p>
+          <div className="flex flex-wrap justify-center w-full p-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 border gap-1 w-fit rounded border-2 border-slate-200 shadow-lg">
+              <div className="flex flex-wrap text-center items-center content-center justify-center text-pretty gap-2 w-full bg-slate-200 text-slate-900  p-6">
+                <MdOutlineSearchOff className="text-9xl w-full" />
+                <h2 className="text-4xl font-semibold uppercase">Error 404</h2>
+              </div>
+              <div className="flex flex-col justify-center text-start text-pretty gap-4 w-full p-6 text-slate-900 ">
+                <h2 className="text-2xl font-semibold capitalize">Page not found</h2>
+                <p className="text-base justify max-w-[400px]">
+                  It seems the content, product, or event you're searching for has either been
+                  moved, removed, or never existed. But don’t worry, we’ve got plenty of other
+                  options for you to explore:
+                </p>
+                <div className="flex flex-col flex-wrap w-full gap-2">
+                  <div className="flex flex-wrap items-center content-center gap-1">
+                    <MdArrowRight className="text-xs" />
+                    <Link
+                      to={"/products"}
+                      className="text-sm capitalize underline underline-offset-4"
+                    >
+                      Browse our latest products
+                    </Link>
+                  </div>
+                  <div className="flex flex-wrap items-center content-center gap-1">
+                    <MdArrowRight className="text-xs" />
+                    <Link
+                      to={"/events"}
+                      className="text-sm capitalize underline underline-offset-4"
+                    >
+                      see latest events
+                    </Link>
+                  </div>
+                  <div className="flex flex-wrap items-center content-center gap-1">
+                    <MdArrowRight className="text-xs" />
+                    <Link to={"/"} className="text-sm capitalize underline underline-offset-4">
+                      return home
+                    </Link>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         )}

@@ -18,6 +18,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { useProductsData, paginate } from "../data/ProductsFunctions";
 import PaginationComponent from "@/components/PaginationComponent";
+import { MdArrowRight, MdOutlineSearchOff } from "react-icons/md";
 
 function Products() {
   const validCategories = ["men", "women", "kids", "accessories", "bags"];
@@ -207,13 +208,36 @@ function Products() {
             </div>
 
             {emptySearch ? (
-              <div className="flex flex-col w-full md:w-3/4">
-                <div className="flex flex-col flex-wrap content-center items-center justify-center w-full p-5">
-                  <CiFaceFrown className="text-[200px]" />
-                  <p className="text-xl capitalize font-bold">No products found</p>
-                  <p className="text-sm">
-                    Your search did not match any of our products. Please try again
-                  </p>
+              <div className="flex flex-wrap justify-center w-full md:w-3/4 my-10">
+                <div className="grid grid-cols-1 md:grid-cols-2 border gap-1 w-fit rounded border-2 border-slate-200 shadow-lg">
+                  <div className="flex flex-wrap text-center items-center content-center justify-center text-pretty gap-2 w-full bg-slate-200 text-slate-900  p-6">
+                    <MdOutlineSearchOff className="text-9xl w-full" />
+                    <h2 className="text-4xl font-semibold uppercase">Error 404</h2>
+                  </div>
+                  <div className="flex flex-col text-start justify-center text-pretty gap-4 w-full p-6 text-slate-900 ">
+                    <h2 className="text-2xl font-semibold capitalize">Product not found</h2>
+                    <p className="text-base justify max-w-[400px]">
+                      It appears that the item you’re trying to find has been discontinued, removed
+                      from our store, or doesn't exist. You can:
+                    </p>
+                    <div className="flex flex-col flex-wrap w-full gap-2">
+                      <div className="flex flex-wrap items-center content-center gap-1">
+                        <MdArrowRight className="text-xs" />
+                        <Link
+                          to={"/products"}
+                          className="text-sm capitalize underline underline-offset-4"
+                        >
+                          Browse Our Latest Products
+                        </Link>
+                      </div>
+                      <div className="flex flex-wrap items-center content-center gap-1">
+                        <MdArrowRight className="text-xs" />
+                        <Link to={"/"} className="text-sm capitalize underline underline-offset-4">
+                          return home
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             ) : (
