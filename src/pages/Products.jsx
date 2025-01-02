@@ -108,7 +108,7 @@ function Products() {
   const handlePaginate = paginate(setCurrentPage, AOS);
 
   if (redirectTo404) {
-    window.location.replace("/404");
+    navigate("/404");
   }
 
   return (
