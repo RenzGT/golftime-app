@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "name": "Grand Master’s Cup Golf Tournament",
+    "date": "2018-08-09",
+    "location": "Wack-Wack Golf And Country Club",
+    "image": "Grandmasters.jpg",
+    "description": "K&G as one of the Major Sponsors during the Grand Master’s Cup Golf Tournament last August 09,2018 at Wack-Wack Golf and Country Club."
+  },
+  {
+    "id": 2,
+    "name": "1st PNP Oca Albayalde Cup Invitational Tournament",
+    "date": "2018-10-21",
+    "location": "Riviera Golf And Country Club",
+    "image": "PNP-OCA.jpg",
+    "description": "K&G named as one of the sponsors during the 1st C,PNP Oca Albayalde Cup Invitational Tournament last October 21, 2018 held at The Riviera Golf and Country Club."
+  },
+  {
+    "id": 3,
+    "name": "PCAM 13th PRESIDENT'S CUP",
+    "date": "2023-05-08",
+    "location": "Valley Golf And Country Club",
+    "image": "PCAMS.jpg",
+    "description": "K&G Golf Apparel was up for the grabs for Hole-in-one during the PCAM 13th PRESIDENT'S CUP held at the Valley Golf and Country Club last May 8, 2023. Maximum of 145 players had won exciting prizes and apparels courtesy of K&G and other sponsors."
+  },
+  {
+    "id": 4,
+    "name": "1st MMCL Metro Manila Councilors League",
+    "date": "2023-05-11",
+    "location": "Wack-Wack Golf And Country Club",
+    "image": "MMCL.jpg",
+    "description": "Another historic event participated by K&G Golf Apparel as one of the sponsors was successfully held at Wack-Wack Golf and Country Club last May 11, 2023. The 1st MMCL Metro Manila Councilors League Golf Tournament was concluded with exciting prizes and giveaways courtesy of the generous sponsors including K&G."
+  },
+  {
+    "id": 5,
+    "name": "2023 Summit Point Invitational Member- Guest Golf Tournament",
+    "date": "2023-05-11",
+    "location": "Summit Point Golf And Country Club",
+    "image": "Summit-Point.jpg",
+    "description": "K&G Golf Apparel and Accessories participated and sponsored for Hole-in-One price in the The 2023 Summit Point Invitational Member- Guest Golf Tournament. This 4-day event was held at Summit Point Golf and Country Club last May 11-14, 2023."
+  },
+  {
+    "id": 6,
+    "name": "Chairman's Cup 2023",
+    "date": "2023-02-11",
+    "location": "Splendido Taal Golf Club",
+    "image": "Charimans-Cup.jpg",
+    "description": "K&G Golf Apparel and Accessories was proud to serve as the official partner of Splendido Taal Golf Club during the Chairman's Cup last February 11, 2023. The Chairman's Cup is one of the most highly anticipated golf events of the year, attracting top golfers from all over the region. K&G Golf Apparel and Accessories provided the golfers with stylish and comfortable apparel and accessories, ensuring they looked and felt their best on the course. K&G Golf's commitment to excellence was evident in the quality of their products, as well as their exceptional customer service."
+  },
+  {
+    "id": 7,
+    "name": "PAREF Southridge Alumni Golf Tournament 2023",
+    "date": "2023-04-20",
+    "location": "Hallow Ridge Filipinas Golf Inc",
+    "image": "Paref.jpg",
+    "description": "K&G as one of the Major Sponsors during the PAREF Southridge Golf Tournament last April 20, 2023 at Hallow Ridge Filipinas Golf Inc.players participated in the tournament from various organizations and corporations. K&G's sponsorship shows their support for community events and their commitment to promoting golf as a sport."
+  },
+  {
+    "id": 8,
+    "name": "LIBERICA INVITATIONAL EVENT 2023",
+    "date": "2023-04-21",
+    "location": "Mount Malarayat Golf & Country Club",
+    "image": "Liberica-International.png",
+    "description": "We are happy to announce that the dates of Liberica Invitational are April 21 and 22, 2023. K&G Golf Apparel and Accessories will serve as the players' Official Wear during the 2023 Liberica Invitational at Mt. Malarayat Golf and Country Club on April 21-22, 2023. As the official wear provider for the tournament, K&G Golf Apparel and Accessories will provide the players with high-quality, comfortable apparel that meets the demands of the sport. With their focus on combining style and functionality, K&G Golf Apparel and Accessories is sure to make the players look and feel their best on the course. The 2023 Liberica Invitational is one of the most anticipated golf tournaments, and K&G Golf Apparel and Accessories is proud to be a part of it as the official wear provider."
+  },
+  {
+    "id": 9,
+    "name": "7Th DAP-AY EVENT 2023",
+    "date": "2023-03-29",
+    "location": "Baguio Country Club",
+    "image": "Dap-ay.jpg",
+    "description": "K&G Golf Apparel and Accessories was thrilled to participate as one of the Major Sponsors in the 7th DAP-AY Tournament at Baguio Country Club last March 29-31, 2023. This prestigious event attracted some of the best golfers from around the region, who competed in a range of challenging courses across the Baguio landscape. As a Major Sponsor, K&G Golf Apparel and Accessories provided the golfers with high-quality apparel and accessories, ensuring they looked and felt their best on the course. K&G Golf's dedication to providing golfers with the best products and services was evident in the quality of their offerings, as well as their outstanding customer service. The 7th DAP-AY Tournament was a huge success, and K&G Golf Apparel and Accessories was proud to play a part in it as a Major Sponsor."
+  },
+  {
+    "id": 10,
+    "name": "Southwoods Invitational 2024",
+    "date": "2024-03-13",
+    "location": "Manila Southwoods Golf & Country Club",
+    "image": "Southwoods-2024.jpg",
+    "description": "It's been an honor for K&G Golf Fashion Co., Ltd to be part of this glorious event. We would like to extend our appreciation and big thanks to Manila Southwoods Golf & Country Club and Organizers for having us as one of your sponsors."
+  },
+  {
+    "id": 11,
+    "name": "1st Quarter Golf Tournament and Intra-Club Golf Championships",
+    "date": "2024-03-21",
+    "location": "Villamor Air Base Golf Course",
+    "image": "Intra-Club-2024.jpg",
+    "description": "Php100,000 worth of K&G products is at stake for the lucky Hole-In-One winner at the 1st Quarter Golf Tournament and Intra-Club Golf Championships happening now at Villamor Air Base Golf Course"
+  },
+  {
+    "id": 12,
+    "name": "The View Invitational",
+    "date": "2024-05-23",
+    "location": "Alta Vista Golf & Country Club",
+    "image": "The-View.jpg",
+    "description": "It was a fantastic experience as K&G Golf Fashion Co., Ltd goes to Cebu for the much awaited The View Invitational held at Alta Vista Golf & Country Club last May 16-19, 2024. The participants were able to enjoy the exclusive offers during the event. It was trully an honor to be part of this event."
+  },
+  {
+    "id": 13,
+    "name": "Suntrust Golf Cup",
+    "date": "2024-05-23",
+    "location": "Sherwood Hills Golf Club",
+    "image": "Suntrust-Golf.jpg",
+    "description": "We would like to extend our appreciation to the organizing committee of this prestigious event for choosing K&G as your exclusive giveaway supplier. Its been an honor for us to be part of the Suntrust Golf Cup 2024 held at Sherwood Hills Golf Club last May 17, 2024. "
+  },
+  {
+    "id": 14,
+    "name": "2024 Summit Point Invitational",
+    "date": "2024-05-16",
+    "location": "Summit Point Golf & Country Club",
+    "image": "2024-Summitpoint.jpg",
+    "description": "Php100,000 worth of K&G products is at stake for the lucky Hole-In-One winner at the 2024 Summit Point Invitational Golf Tournament  happening now at Summit Point Golf & Country Club"
+  },
+  {
+    "id": 15,
+    "name": "3rd FVM Golf Cup",
+    "date": "2024-05-23",
+    "location": "Club Intramuros Golf Course",
+    "image": "3rd-FVM.jpg",
+    "description": "It is an honor for K&G Golf Fashion Co., Ltd to be part of this Charity Golf Cup. We would like to extend our appreciation and big thanks to the Team and Organizers for having us as one of your sponsors. "
+  },
+  {
+    "id": 16,
+    "name": "MLQUAAI 5th Invitational Golf Tournament",
+    "date": "2024-05-31",
+    "location": "Wack Wack Golf and Country Club",
+    "image": "MLQUAAI 5th Invitational Golf Tournament.jpg",
+    "description": "Our hearts are still on the green after an incredible day at the MLQUAAI 5th Invitational Golf Tournament! K&G Golf Fashion Co., Ltd was thrilled to be a part of such an amazing event. Congratulations to all the participants for showcasing their skills and sportsmanship. A huge thank you to everyone who joined us at Wack Wack Golf and Country Clublast Friday, May 31, 2024, and made it a day to remember! "
+  },
+  {
+    "id": 17,
+    "name": "NMYL Golf Tournament",
+    "date": "2024-06-07",
+    "location": "Wack Wack Golf and Country Club",
+    "image": "NMYL Golf Tournament.jpg",
+    "description": "K&G Golf Fashion Co., Ltd is grateful for the incredible experience at the NMYL Golf Tournament! We had a fantastic time at Wack Wack Golf and Country Club on June 7, 2024. Thank you for having us!"
+  },
+  {
+    "id": 18,
+    "name": "RMCH Golf Good Tournament",
+    "date": "2024-06-10",
+    "location": "Sta Elena Golf And Country Club",
+    "image": "RMCH Golf Good Tournament.jpg",
+    "description": "Felt the presence of fun and spirit of good will during the RMCH Golf Tournament held at Sta Elena Golf And Country Club last June 10, 2024. Thank you for making K&G Golf Fashion Co., Ltd part of your generosity.Til' the next event!"
+  },
+  {
+    "id": 19,
+    "name": "1st LPCREB Tournament",
+    "date": "2024-06-21",
+    "location": "Hallowridge, San Pedro Laguna",
+    "image": "1st LPCREB Tournament.jpg",
+    "description": "Highlights from the 1st LPCREB Tournament at Hallowridge, San Pedro Laguna last June 21, 2024! From thrilling golf rounds to exciting raffle prizes, giveaways and exclusive K&G golf apparel and accessories, it was a day to remember. Thank you for having us!"
+  },
+  {
+    "id": 20,
+    "name": "Lena Cup Golf Tournament",
+    "date": "2024-06-26",
+    "location": "Villamor Air Base Golf Course",
+    "image": "Lena Cup Golf Tournament.jpg",
+    "description": "The Lena Cup Golf Tournament at Villamor Air Base Golf Course last June 26, 2024, was a blast! K&G Golf Fashion Co., Ltd was thrilled to be a part of it, showcasing our trendy Golf Apparel and Accessories. Thank you for an amazing event!"
+  },
+  {
+    "id": 21,
+    "name": "Lion's Tee-off Tournament",
+    "date": "2024-06-26",
+    "location": "Tagaytay Midlands Golf Club",
+    "image": "Lion's Tee-off Tournament.jpg",
+    "description": "We greatly appreciated the fantastic time at the Lion's Tee-off Tournament held at Tagaytay Midlands Golf Club last June 26, 2024. Every swing and moment at the event was truly memorable—it was an experience we'll cherish! Thank you for having K&G Golf Fashion Co., Ltd  as one of your sponsors."
+  },
+  {
+    "id": 22,
+    "name": "Rotary Club of Pasay Mia Golf Tournament",
+    "date": "2024-07-03",
+    "location": "Villamor Air Base Golf Course",
+    "image": "Rotary Club of Pasay Mia Golf Tournament.jpg",
+    "description": "K&G Golf Fashion Co., Ltd  was proud to be part of the action at the Rotary Club of Pasay Mia Golf Tournament! ⛳️👕 What a fantastic day at Villamor Air Base Golf Course, celebrating community, sport, and style. Here's to many more rounds of excellence on and off the course!"
+  },
+  {
+    "id": 23,
+    "name": "Joint Magical Golf Tournament",
+    "date": "2024-07-05",
+    "location": "Summit Point Golf & Country Club",
+    "image": "Joint Magical Golf Tournament.jpg",
+    "description": "K&G Golf Fashion Co., Ltd had an exceptional time at the Joint Magical Golf Tournament at Summit Point Golf & Country Club last July 5, 2024! We were delighted to offer a ₱1000 discount to all the amazing players and showcase our newest arrivals. The energy and enthusiasm of the participants made the event truly special. Thank you for the warm welcome and for having us. We eagerly await the next opportunity to be part of such a fantastic tournament."
+  },
+  {
+    "id": 24,
+    "name": "Dreams Golf Tournament",
+    "date": "2024-07-05",
+    "location": "Bayview Park Hotel",
+    "image": "Dreams Golf Tournament.jpg",
+    "description": "K&G Golf Fashion Co., Ltd is grateful to have been part of the Dreams Golf Tournament at Bayview Park Hotel Manila last July 5, 2024. We extend our heartfelt thanks to all the participants who visited our booth and made purchases, contributing to a memorable day. Thank you for having us! We look forward to seeing you again at the next tournament!"
+  },
+  {
+    "id": 25,
+    "name": "CAGC LADIES FUNdraising Tournament",
+    "date": "2024-07-12",
+    "location": "Camp Aguinaldo Golf Course",
+    "image": "CAGC LADIES FUNdraising Tournament.jpg",
+    "description": "Its been an honor to be part of the CAGC Ladies Tournament last July 12, 2024, at Camp Aguinaldo Golf Course-CAGC. K&G supported the generosity of the CAGC Ladies to hold a tournament for the benefit of the CAGC Caddies, TEE girls and boys.  They also showcased their unique golf apparel and accessories which enjoyed by the tournament participants. Hurray! for the fun and interaction with all the participants. Thank you for the amazing experience! Keep on Going!"
+  },
+  {
+    "id": 26,
+    "name": "18th Sta. Lucia Golf Tour 2024",
+    "date": "2024-08-07",
+    "location": "Multiple Events",
+    "image": "18th Sta. Lucia Golf Tour 2024.jpg",
+    "description": "Exciting Times Ahead with the 18th Sta. Lucia Golf Tour 2024! \n K&G is proud to be part of this exciting tour across these fantastic locations: \n • Leg 1: Davao, August 7-9, 2024, at Rancho Palos Verdes Golf & Sports Club. \n • Leg 2: Cebu, September 4-6, 2024, at Alta Vista Golf & Country Club. \n • Leg 3: Manila, October 9-11, 2024, at Eagle Ridge Golf & Country Club, Summit Point Golf & Country Club, and The Orchard Golf & Country Club. \n Swing by our booth to check out our latest golf fashion and accessories. Don’t miss our special promotional packages, available exclusively at these events! We look forward to seeing you on the greens"
+  },
+  {
+    "id": 27,
+    "name": "12th Benhur Abalos Golf Cup",
+    "date": "2024-07-18",
+    "location": "Wack Wack Golf and Country Club",
+    "image": "12th Benhur Abalos Golf Cup.jpg",
+    "description": "Cheers! 12th Benhur Abalos Golf Cup, for a memorable and successful day on July 18, 2024, at Wack Wack Golf and Country Club! \n\nK&G Golf Fashion Co., Ltd is so grateful to have been part of this successful event. We loved seeing golfers delighted with their purchases from our booth. Your smiles made it all worthwhile! Until next event, thank you for having us!"
+  },
+  {
+    "id": 28,
+    "name": "3rd Aliaga Masonic Lodge No. 404 Golf Cup",
+    "date": "2024-07-19",
+    "location": "Veterans Golf Club Philippines",
+    "image": "3rd Aliaga Masonic Lodge No. 404 Golf Cup.jpg",
+    "description": "July 19, 2024, was a day to remember at the Veterans Golf Club Philippines in Quezon City! We are so thankful to have been part of the 3rd Aliaga Masonic Lodge No. 404 Golf Cup.\n\nA big thank you to everyone who joined us, and a special appreciation to those who purchased our newest arrival, Couple and Family Shirts."
+  },
+  {
+    "id": 29,
+    "name": "Golf Mix Milo Tournament",
+    "date": "2024-07-21",
+    "location": "The Riviera Sports & Country Club",
+    "image": "Golf Mix Milo Tournament.jpg",
+    "description": "We are deeply thankful for everyone who made the Milo Tournament last July 21, 2024, at The Riviera Sports & Country Club a resounding success. Seeing the excitement and joy on the kids' faces as they played was truly heartwarming. We're also incredibly grateful to everyone who visited the K&G booth and supported us with your purchases. Thank you for being part of this wonderful event and for contributing to the vibrant community spirit.  Here's to many more joyful events and memories!"
+  },
+  {
+    "id": 30,
+    "name": "Beginner Golf League",
+    "date": "2024-07-27",
+    "location": "Eagle Ridge Golf and Country Club",
+    "image": "Beginner Golf League.jpg",
+    "description": "On July 27, 2024, K&G Golf proudly participated in the Beginner Golf League Tournament at Eagle Ridge Golf and Country Club! We were happy to showcase our latest arrivals and connect with all of you. Thank you to everyone who stopped by!"
+  },
+  {
+    "id": 31,
+    "name": "PMA Hinirang '87 Charity Golf Cup",
+    "date": "2024-07-30",
+    "location": "Wack Wack Golf and Country Club",
+    "image": "PMA Hinirang '87 Charity Golf Cup.jpg",
+    "description": "What an incredible day at the PMA Hinirang '87 Charity Golf Cup on July 30, 2024, at the Wack Wack Golf and Country Club! We at K&G Golf Fashion Co., Ltd extend our deepest gratitude for being part of such a meaningful event. A special thank you to all the wonderful golfers who stopped by, supported our booth, and showed interest in our products. Your support helps us continue to serve the golfing community and make a positive impact. Cheers to a successful event and the many connections made!"
+  },
+  {
+    "id": 32,
+    "name": "18th Sta Lucia Golf Tour 2024 1st Leg",
+    "date": "2024-08-09",
+    "location": "Multiple Events",
+    "image": "18th Sta Lucia Golf Tour 2024 Leg 1.jpg",
+    "description": "That’s a wrap on the first leg of the Sta Lucia Golf Tour 2024! 🎉⛳️ From August 7-9, we’ve experienced incredible play and stunning views in Davao. K&G Golf Fashion Co., Ltd is thankful to everyone who made this kickoff unforgettable. Stay tuned for more updates as we continue the tour. Here’s to many more exciting moments ahead!"
+  },
+  {
+    "id": 33,
+    "name": "1st Gift of Friendship Tournament",
+    "date": "2024-08-09",
+    "location": "Manila Golf & Country Club!",
+    "image": "The 1st Gift of Friendship Tournament.jpg",
+    "description": "K&G Golf Fashion Co., Ltd  was thrilled to participate in the 1st Gift of Friendship Tournament on August 9 at the Manila Golf & Country Club! 🎉⛳️ It was a fantastic day filled with great golf and wonderful moments. A big thank you to everyone who joined us. Stay tuned for more updates and upcoming events!"
+  },
+  {
+    "id": 34,
+    "name": "4th PSI Golf Cup",
+    "date": "2024-08-12",
+    "location": "The Orchard Golf & Country Club",
+    "image": "4th PSI Golf Cup.jpg",
+    "description": "K&G Golf Fashion Co., Ltd had a fantastic time at the 4th PSI Golf Cup! ⛳️🏆 Last August 12, 2024, The Orchard Golf & Country Club  played host to an amazing day of golf. Thank you to everyone who joined us for this exciting event. Stay tuned to our page for more updates and future golf happenings!"
+  },
+  {
+    "id": 35,
+    "name": "68th Founding Anniversary Golf Tournament",
+    "date": "2024-08-23",
+    "location": "Eagle Ridge Golf & Country Club",
+    "image": "68th Founding Anniversary Golf Tournament.jpg",
+    "description": "K&G Golf Fashion Co., Ltd  at the Beta Sigma Fraternity’s 68th Anniversary Golf Event \nK&G displayed its latest golf apparel and accessories at the Beta Sigma Fraternity Alumni Association’s 68th Founding Anniversary Golf Tournament, held on August 23, 2024, at Eagle Ridge Golf & Country Club in Cavite. The event celebrated fraternity brotherhood and the sport of golf."
+  },
+  {
+    "id": 36,
+    "name": "Malarayat Interclub Tournament",
+    "date": "2024-08-29",
+    "location": "Mount Malarayat Golf & Country Club",
+    "image": "Malarayat Interclub Tournament.jpg",
+    "description": "Proud to be part of the Malarayat Interclub Tournament! Our customized golf shirts from K&G Golf Fashion Co., Ltd  made a statement on the green. At K&G , we specialize in personalizing golf apparel and accessories to match your style. Stand out and play in style—reach out to us for your custom golf needs!"
+  },
+  {
+    "id": 37,
+    "name": "Sherwood Monthly Tournament",
+    "date": "2024-08-31",
+    "location": "Sherwood Hills Golf Club",
+    "image": "Sherwood Monthly Tournament.jpg",
+    "description": "What an incredible day at the Sherwood Monthly Tournament on August 31, 2024, at Sherwood Hills Golf Club! We were excited to see so many of you at our booth. Can’t wait to see you all sporting K&G Golf Fashion Co., Ltd gear at future events! Thanks for your support and enthusiasm."
+  },
+  {
+    "id": 38,
+    "name": "WAGC Philippine National Finals",
+    "date": "2024-09-07",
+    "location": "One Tectona Hotel",
+    "image": "WAGC Philippine National Finals.jpg",
+    "description": "What a blast we had at the WAGC Philippine National Finals in Liloan Cebu! It was fantastic connecting with everyone at the K&G Golf Fashion Co., Ltd  booth. Thanks to all who stopped by and showed their support. We can’t wait to see you showcasing K&G Golf Fashion gear at future events!"
+  },
+  {
+    "id": 39,
+    "name": "25th Corn Tee Golf Tournament",
+    "date": "2024-09-15",
+    "location": "Club Filipino De Cebu Incorporated",
+    "image": "25th Corn Tee Golf Tournament.jpg",
+    "description": "K&G Golf Fashion Co., Ltd  had a fantastic time at the 25th Corn Tee at Club Filipino Inc. De Cebu Danao from September 11-15, 2024. \nParticipants had a chance to ace the P100,000 worth of K&G products for the Hole in One. Thrilled to support Corn Tee for the first time, Danaoans welcomed K&G warmly as they enjoyed the exciting discounts exclusively for the event. Big thanks to Club Filipino President, Sir Ed Alino for the opportunity and supporting K&G!"
+  },
+  {
+    "id": 40,
+    "name": "2nd President's Cup",
+    "date": "2024-09-11",
+    "location": "Eagle Ridge Golf & Country Club",
+    "image": "2nd President's Cup.jpg",
+    "description": "A memorable day at the 2nd President's Cup held at Eagle Ridge Golf & Country Club! It was a pleasure to connect with so many of you and share our passion for golf fashion at the K&G Golf Fashion Co., Ltd booth. A big thank you to everyone who stopped by—your support means the world to us. We can’t wait to see you sporting K&G Golf Fashion at future events!"
+  }
+]
