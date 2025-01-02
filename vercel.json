@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/about*",
-      "destination": "https://golftime-app.vercel.app/about"
-    }
-  ]
-}
