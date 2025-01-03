@@ -260,7 +260,7 @@ function ProductDetail() {
                     <p className="my-1 font-semibold">
                       Materials:{" "}
                       <span className="font-normal capitalize">
-                        {product.materials && product.materials.join(", ")}
+                        {product.material && product.material.join(", ")}
                       </span>
                     </p>
                   </div>
